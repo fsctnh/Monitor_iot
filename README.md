@@ -1,10 +1,10 @@
 # Monitor_iot
-Monitoramento de umidade, temperatura e luz com ESP32 + Front-End em Node-RED
+Humidity, Temperature and Light intensity monitor with MQTT IoT features and a Node-RED front-end.
 
-! WIP ! Work in Progress !
+! WIP ! This readme is currently being written. !
 
-Bibliotecas necessárias: 
-Adafruit_GFX
-Adafruit_SSD1306
-PubSubClient
-DHT.h (By Adafruit)
+Libraries used: 
+* Adafruit_GFX
+* Adafruit_SSD1306
+* PubSubClient
+* DHT.h (By Adafruit)
