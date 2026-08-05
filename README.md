@@ -13,6 +13,9 @@ Libraries used:
 ## Example view of Node-Red GUI: 
 ![alt text](https://github.com/fsctnh/Monitor_iot/blob/098a293ff1bf891c41aeddcbee5d0485844b33c9/ExamplePhoto.png)
 
+## View of OLED Display:
+![alt text](https://github.com/fsctnh/Monitor_iot/blob/d8d5da900191723b257c4294729785bc7d2f6b3c/OLED_Display.jpeg)
+
 ## Schematic:
 (Will be Added Soon!)
 
@@ -20,4 +23,10 @@ Libraries used:
 (Will be Added Soon!)
 
 ## Code:
-(Will be Added Soon!)
+Look at ESP32_MQTT_Code
+
+# Instructions of use:
+* Run a Node-RED instance locally in your machine
+* Import the "Flows_NodeRed.json" file to the instance and click "deploy" on the top right
+* Compile and send the code to your ESP32 circuit (Avoid using ADC2 pins for the LDR! They are disabled during Wi-Fi communication)
+* Check for a successful connection and enjoy!
