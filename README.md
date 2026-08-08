@@ -2,8 +2,6 @@
 Humidity, Temperature and Light intensity monitor with MQTT IoT features and a Node-RED front-end.
 Built with ESP-32 compatibility in mind.
 
-! WIP ! This readme is currently being written. !
-
 Libraries used: 
 * Adafruit_GFX
 * Adafruit_SSD1306
@@ -15,9 +13,6 @@ Libraries used:
 
 ## View of OLED Display:
 ![alt text](https://github.com/fsctnh/Monitor_iot/blob/d8d5da900191723b257c4294729785bc7d2f6b3c/OLED_Display.jpeg)
-
-## Schematic:
-(Will be Added Soon!)
 
 ## Bill of Materials:
 * SSD1306 OLED Display
