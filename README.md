@@ -20,13 +20,13 @@ Libraries used:
 (Will be Added Soon!)
 
 ## Bill of Materials:
-(Will be Added Soon!)
-
-## Code:
-Look at ESP32_MQTT_Code
+* SSD1306 OLED Display
+* DHT11 Temperature and Humidity sensor (can be swapped for a DHT22)
+* LDR + 10kOhm resistor
+* ESP32-S2-WROOM (can be any microcontroller with wi-fi capabilities)
 
 # Instructions of use:
 * Run a Node-RED instance locally in your machine
 * Import the "Flows_NodeRed.json" file to the instance and click "deploy" on the top right
-* Compile and send the code to your ESP32 circuit (Avoid using ADC2 pins for the LDR! They are disabled during Wi-Fi communication)
+* Compile and send the code (ESP32_MQTT_Code.ino) to your ESP32 circuit (Avoid using ADC2 pins for the LDR! They are disabled during Wi-Fi communication)
 * Check for a successful connection and enjoy!
